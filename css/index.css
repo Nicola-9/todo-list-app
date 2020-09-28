@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after{
+	
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-size: 10px;
+	font-family: 'SF Pro Display', sans-serif;
+}
+
+body{
+	background-color: #fff;
+}
+
+header{
+    margin: 1% 0;
+    padding: .5% 0;
+    background-color: #e5be01;
+}
+
+.header-title h1{
+    font-size: 3rem !important;
+    color: #fff;
+    margin-left: 3%;
+}
+
+.container{
+    min-width: 95% !important;
+}
+
+.card-header{
+    font-size: 1.75rem !important;
+    background-color: #fff !important;
+}
+
+.input-list-name{
+    font-size: 1.75rem;
+    height: 100%;
+}
+
+.container-header-input{
+    margin-bottom: 0 !important;
+}
+
+.card-text{
+    font-size: 1.5rem !important;
+}
+
+.card-body{
+    background-color: #f8f9fa;
+}
+
+.add-card-btn{
+    width: 20%;
+}
+
+.add-todo-btn{
+    padding: .25rem;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.add-card-btn{
+    border: 1px solid rgba(0,0,0,.125);
+    font-size: 1.5rem;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: .05rem;
+}
