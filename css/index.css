@@ -47,6 +47,11 @@ header{
     margin-bottom: 0 !important;
 }
 
+.input-todo{
+    font-size: 1.5rem !important;
+    margin-top: 3%;
+}
+
 .card-text{
     font-size: 1.5rem !important;
 }
@@ -63,6 +68,37 @@ header{
     padding: .25rem;
     font-size: 1.5rem;
     width: 100%;
+}
+
+.todo-list{
+    list-style: none;
+}
+
+.todo{
+    margin-bottom: 1.5%;
+}
+
+.card-body-todo{
+    background-color: #fff;
+}
+
+.unchecked{
+    margin-right: 1.5%;
+}
+
+.unchecked:hover{
+    cursor: pointer;
+    color: #e5be01;
+}
+
+.checked{
+    margin-right: 1.5%;
+    color: #e5be01;
+    display: none;
+}
+
+.checked:hover{
+    cursor: pointer;
 }
 
 .add-card-btn{
